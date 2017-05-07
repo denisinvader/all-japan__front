@@ -30,7 +30,6 @@ module.exports = function (grunt) {
       options: { sourcemap: 'none' },
       dist: { files: { 'build/sass.css': 'src/styles/main.scss' } }
     },
-
     concat_css: {
       all: {
         src: [
@@ -45,6 +44,7 @@ module.exports = function (grunt) {
     cssmin: {
       target: { files: { 'build/styles.min.css': ['build/styles.css'] } }
     },
+
     watch: {
         // scripts: {
         //     files: [
@@ -60,7 +60,7 @@ module.exports = function (grunt) {
           files: ['src/styles/**/*.scss'],
           tasks: [
             'sass',
-            // 'concat_css',
+            'concat_css',
             'autoprefixer',
             'cssmin'
           ],
