@@ -1,4 +1,4 @@
-        <footer>footer</footer>
+        <footer></footer>
 
         <script type="text/javascript" src="/build/scripts.min.js"></script>
     </body>

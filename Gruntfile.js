@@ -19,7 +19,7 @@ module.exports = function (grunt) {
 
     sprite:{
       all: {
-        src: 'src/images/sprite/*.png',
+        src: 'src/sprite/*.png',
         dest: 'images/sprite.png',
         destCss: 'src/styles/icons/_sprite.scss',
         imgPath: '/images/sprite.png'
@@ -67,10 +67,10 @@ module.exports = function (grunt) {
           options: { spawn: false }
         },
         sprites: {
-          files: ['src/images/sprite/*.png'],
+          files: ['src/sprite/*.png'],
           tasks: [
             'sprite',
-            // 'concat_css',
+            'concat_css',
             'autoprefixer',
             'cssmin'
           ],
