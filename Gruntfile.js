@@ -4,9 +4,7 @@ module.exports = function (grunt) {
 
     concat: {
       dist: {
-        src: [
-          'src/scripts/main.js'
-        ],
+        src: ['src/scripts/main.js'],
         dest: 'build/scripts.js'
       }
     },
@@ -32,9 +30,7 @@ module.exports = function (grunt) {
     },
     concat_css: {
       all: {
-        src: [
-          'build/sass.css'
-        ],
+        src: ['build/sass.css'],
         dest: "build/styles.css"
       }
     },
@@ -46,16 +42,11 @@ module.exports = function (grunt) {
     },
 
     watch: {
-        // scripts: {
-        //     files: [
-        //         'js/libs/*.js',
-        //         'js/*.js'
-        //     ],
-        //     tasks: ['concat', 'uglify'],
-        //     options: {
-        //         spawn: false
-        //     }
-        // },
+        scripts: {
+            files: ['src/scripts/*.js'],
+            tasks: ['concat', 'uglify'],
+            options: { spawn: false }
+        },
         styles: {
           files: ['src/styles/**/*.scss'],
           tasks: [

@@ -7,12 +7,21 @@
 
   &__phone {
     display: none;
-    @media (min-width: $bp-tablet) {
+    @media (min-width: $bp-desktop) {
       display: initial;
+      color: $white;
+      font-weight: bold;
+      line-height: 48px;
+      text-shadow: 1px 2px darken($brand-color, 16);
+
+      &:hover,
+      &:focus {
+        color: $white;
+      }
     }
   }
   &__icon {
-    @media (min-width: $bp-tablet) {
+    @media (min-width: $bp-desktop) {
       display: none;
     }
   }

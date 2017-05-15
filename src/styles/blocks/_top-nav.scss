@@ -2,13 +2,21 @@
   box-sizing: border-box;
   display: block;
   height: 48px;
-  padding: 8px 16px;
-  background-color: $white;
-  border: {
-    top: 1px solid gray;
-    bottom: 1px solid gray;
-  }
+  padding: 0 16px;
+  background-color: $brand-color;
   @include clearfix;
+
+  &.scrolled {
+    position: fixed;
+    top: -48px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top .3s;
+
+    &.active {
+      top: 0;
+    }
+  }
 
   &__menu-toggle {
     float: right;
@@ -23,6 +31,37 @@
     @media (min-width: $bp-tablet) {
       @include inline-menu;
       display: initial;
+    }
+
+    &>li {
+      &:first-child {
+        margin-left: -16px;
+      }
+
+      &>a {
+        display: block;
+        margin: 0;
+        padding: 0 16px;
+        height: 100%;
+        line-height: 48px;
+        font-weight: bold;
+        color: $white;
+        background-color: $brand-color;
+        text-shadow: 1px 2px darken($brand-color, 16);
+        transition: background-color 0.15s;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          background-color: lighten($brand-color, 8);
+        }
+      }
+
+      &.active {
+        &>a {
+          background-color: lighten($brand-color, 16);
+        }
+      }
     }
   }
 }

@@ -18,13 +18,19 @@
             </h1>
         </header>
 
-        <nav class="top-nav container">
+        <nav class="top-nav container" id="topNav">
             <a href="#" class="top-nav__menu-toggle">
                 <i class="fa fa-bars" style="font-size: 32px;"></i>
             </a>
             <menu class="top-nav__menu top-menu">
+                <li class="">
+                    <a href="#">Главная</a>
+                </li>
                 <li>
-                    <a href="#">Каталог</a>
+                    <a href="#">Запчасти</a>
+                </li>
+                <li class="active">
+                    <a href="#">Техника</a>
                 </li>
                 <li>
                     <a href="#">Новости</a>

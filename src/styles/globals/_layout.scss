@@ -1,11 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 html,
 body {
   padding: 0;
   margin: 0;
   cursor: default;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: $text-color;
 }
 
 img {
   border: 0;
   max-width: 100%;
+}
+
+// --------- TYPOGRAPHY
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $brand-color;
+    text-decoration: underline;
+  }
 }
