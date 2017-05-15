@@ -1,0 +1,19 @@
+.footer {
+  &__section {
+    margin: 0 0 16px;
+  }
+  &__subsection {
+    margin: 0 0 8px;
+  }
+  &__menu {
+    @include inline-menu;
+    @include clearfix;
+    display: block;
+  }
+  &__contacts {
+
+  }
+  &__copyright {
+    color: gray;
+  }
+}

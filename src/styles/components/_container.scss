@@ -1,0 +1,12 @@
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  @media (min-width: $bp-desktop) {
+    width: $bp-desktop - 16px;
+  }
+  @media (min-width: $bp-large) {
+    width: $bp-large - 16px;
+  }
+}

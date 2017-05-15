@@ -1,0 +1,19 @@
+.top-contacts {
+  float: left;
+
+  @media (min-width: $bp-tablet) {
+    float: right;
+  }
+
+  &__phone {
+    display: none;
+    @media (min-width: $bp-tablet) {
+      display: initial;
+    }
+  }
+  &__icon {
+    @media (min-width: $bp-tablet) {
+      display: none;
+    }
+  }
+}

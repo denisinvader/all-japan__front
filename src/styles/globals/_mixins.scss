@@ -5,3 +5,16 @@
     clear: both;
   }
 }
+
+@mixin inline-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  &>li {
+    float: left;
+    &:not(:first-child) {
+      margin-left: 8px;
+    }
+  }
+}

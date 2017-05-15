@@ -1,0 +1,19 @@
+.catalog-table {
+  width: 100%;
+  &>tbody>tr,
+  &>thead>tr {
+    &>td {
+      padding: 4px;
+
+      &:nth-of-type(1),
+      &:nth-of-type(3),
+      &:nth-of-type(4) {
+        display: none;
+
+        @media (min-width: $bp-desktop) {
+          display: table-cell;
+        }
+      }
+    }
+  }
+}
