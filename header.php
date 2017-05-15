@@ -9,6 +9,14 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+        <div style="display:none;">
+            <h1>TODO</h1>
+            <ul>
+                <li>В FireFox не отслеживается скролл (меню не плавает)</li>
+                <li>Сделать реакцию на выкатывание плаваюшего меню меньше (dy = 10px)</li>
+                <li>Сделать иконки для мобильной версии и планшета</li>
+            </ul>
+        </div>
         <header class="header container">
             <h1 class="header__logo">
                 <a href="/">
