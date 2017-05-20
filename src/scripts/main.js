@@ -1,4 +1,5 @@
 (function () {
+  var bpTablet = 768;
   var $body = $('body');
   var $topNav = $('#topNav');
   var topNavBottom = $topNav.offset().top + 48;
@@ -32,6 +33,15 @@
     }
 
     lastScroll = st;
+  });
+
+  $(window).on('resize', function (e) {
+    var width = $(window).width();
+
+    if (width > bpTablet) {
+      if ($topMenu.hasClass('active'))
+        $menuToggle.click();
+    }
   });
 
   $menuToggle.on('click', function (e) {
