@@ -28,7 +28,7 @@
 
         <nav class="top-nav container" id="topNav">
             <a href="#" class="top-nav__menu-toggle">
-                <i class="fa fa-bars" style="font-size: 32px;"></i>
+                <i class="icon icon-hamburger"></i>
             </a>
             <menu class="top-nav__menu top-menu">
                 <li class="">
@@ -55,8 +55,8 @@
                 <a href="#" class="top-contacts__phone">
                     +7 (999) 945 44-87
                 </a>
-                <a href="#" class="top-contacts__icon"><!--
-                    --><i class="fa fa-phone" style="font-size: 32px;"></i><!--
-                --></a>
+                <a href="#" class="top-contacts__icon">
+                    <i class="icon icon-phone"></i>
+                </a>
             </div>
         </nav>

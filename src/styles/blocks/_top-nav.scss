@@ -19,7 +19,8 @@
   }
 
   &__menu-toggle {
-    float: right;
+    float: left;
+    padding-top: 8px;
 
     @media (min-width: $bp-tablet) {
       display: none;

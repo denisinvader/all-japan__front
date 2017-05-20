@@ -1,9 +1,5 @@
 .top-contacts {
-  float: left;
-
-  @media (min-width: $bp-tablet) {
-    float: right;
-  }
+  float: right;
 
   &__phone {
     display: none;
@@ -21,6 +17,9 @@
     }
   }
   &__icon {
+    display: inline-block;
+    padding-top: 8px;
+    
     @media (min-width: $bp-desktop) {
       display: none;
     }

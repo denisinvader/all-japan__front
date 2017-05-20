@@ -14,17 +14,28 @@ $hamburger-x: 0px;
 $hamburger-y: 0px;
 $hamburger-offset-x: 0px;
 $hamburger-offset-y: 0px;
-$hamburger-width: 32px;
+$hamburger-width: 36px;
 $hamburger-height: 32px;
-$hamburger-total-width: 32px;
-$hamburger-total-height: 32px;
+$hamburger-total-width: 36px;
+$hamburger-total-height: 65px;
 $hamburger-image: '/images/sprite.png';
-$hamburger: (0px, 0px, 0px, 0px, 32px, 32px, 32px, 32px, '/images/sprite.png', 'hamburger', );
-$spritesheet-width: 32px;
-$spritesheet-height: 32px;
+$hamburger: (0px, 0px, 0px, 0px, 36px, 32px, 36px, 65px, '/images/sprite.png', 'hamburger', );
+$phone-name: 'phone';
+$phone-x: 0px;
+$phone-y: 32px;
+$phone-offset-x: 0px;
+$phone-offset-y: -32px;
+$phone-width: 32px;
+$phone-height: 33px;
+$phone-total-width: 36px;
+$phone-total-height: 65px;
+$phone-image: '/images/sprite.png';
+$phone: (0px, 32px, 0px, -32px, 32px, 33px, 36px, 65px, '/images/sprite.png', 'phone', );
+$spritesheet-width: 36px;
+$spritesheet-height: 65px;
 $spritesheet-image: '/images/sprite.png';
-$spritesheet-sprites: ($hamburger, );
-$spritesheet: (32px, 32px, '/images/sprite.png', $spritesheet-sprites, );
+$spritesheet-sprites: ($hamburger, $phone, );
+$spritesheet: (36px, 65px, '/images/sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables
 //
