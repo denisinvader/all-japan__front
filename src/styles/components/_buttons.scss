@@ -1,0 +1,32 @@
+.btn {
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  padding: 8px 32px;
+  margin: {
+    right: 1px;
+    bottom: 2px;
+  }
+  background-color: $brand-color;
+  color: $white;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 1px 2px 0 hsl-darken($brand-color, 32, 32);
+  cursor: pointer;
+  transition: background-color .2s;
+
+  &:hover,
+  &:focus {
+    background-color: hsl-lighten($brand-color, 2, 4);
+  }
+
+  &:active {
+    box-shadow: none;
+    margin: {
+      left: 1px;
+      top: 2px;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}

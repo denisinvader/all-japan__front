@@ -1,5 +1,5 @@
         <footer class="footer container">
-            <div class="footer__section">
+            <div class="footer__subsection">
                 <menu class="footer__menu">
                     <li>
                         <a href="#">Главная</a>
@@ -14,31 +14,32 @@
                         <a href="#">Контакты</a>
                     </li>
                 </menu>
+
+                <div class="footer__callback hidden-tablet">
+                    <button type="button" class="btn">
+                        Заказть звонок
+                    </button>
+                </div>
+
+                <div class="clearfix"></div>
             </div>
 
-            <div class="footer__section">
+            <div class="footer__section clearfix">
                 <div class="footer__subsection">
-                    <a href="#">г. Красноярск, ул. 60 Лет Октября 156</a>
+                    <a href="#" class="footer__link">г. Красноярск, ул. 60 Лет Октября 156</a>
                 </div>
                 <div class="footer__subsection">
-                    <a href="#">+7 (998) 879 64-59</a>
+                    <a href="#" class="footer__link">+7 (998) 879 64-59</a>
                 </div>
-                <div class="footer__subsection">
-                    <button type="button">Заказть звонок</button>
+                <div class="footer__subsection hidden-from-tablet">
+                    <button type="button" class="btn">
+                        Заказть звонок
+                    </button>
                 </div>
             </div>
 
-            <div class="footer__social footer__section">
-                <span>Мы в соцсетях</span>
-                <a href="//vk.com">
-                    <i class="fa fa-vk"></i>
-                </a>
-                <a href="//vk.com">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a href="//vk.com">
-                    <i class="fa fa-odnoklassniki"></i>
-                </a>
+            <div class="footer__disclamer footer__section">
+                Обращаем ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер, вся информация носит ознакомительный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса РФ. Интернет-магазин оставляет за собой право в любое время без специального уведомления вносить изменения, удалять, исправлять, дополнять, либо любым иным способом обновлять информацию, размещенную во всех разделах данного сайта.
             </div>
 
             <div class="footer__copyright">

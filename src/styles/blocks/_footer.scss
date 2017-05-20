@@ -1,19 +1,51 @@
 .footer {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  background-color: $gray;
+
   &__section {
     margin: 0 0 16px;
   }
   &__subsection {
     margin: 0 0 8px;
   }
+  &__link {
+    color: $text-color;
+    transition: color .15s;
+
+    &:hover,
+    &:focus {
+      color: $brand-color;
+    }
+  }
   &__menu {
     @include inline-menu;
     @include clearfix;
     display: block;
-  }
-  &__contacts {
+    float: left;
 
+    &>li {
+      margin-left: 8px;
+
+      @media (min-width: $bp-phone) {
+        margin-left: 32px;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &>a {
+        @extend .footer__link;
+        font-weight: bold;
+      }
+    }
   }
-  &__copyright {
-    color: gray;
+  &__callback {
+    margin-top: -8px;
+    float: right;
+  }
+  &__disclamer {
+    font-size: 10px;
   }
 }

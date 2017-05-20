@@ -1,0 +1,20 @@
+.clearfix {
+  @include clearfix;
+}
+
+.hidden {
+  display: none;
+
+  &-tablet {
+    display: none;
+
+    @media (min-width: $bp-tablet) {
+      display: initial;
+    }
+  }
+  &-from-tablet {
+    @media (min-width: $bp-tablet) {
+      display: none;
+    }
+  }
+}
