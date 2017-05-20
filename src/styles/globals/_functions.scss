@@ -1,0 +1,14 @@
+@function hsl-lighten ($color, $saturation, $lightness) {
+  @return hsl(
+    hue($color),
+    saturation($color) - $saturation,
+    lightness($color) + $lightness
+  );
+}
+@function hsl-darken ($color, $saturation, $lightness) {
+  @return hsl(
+    hue($color),
+    saturation($color) + $saturation,
+    lightness($color) - $lightness
+  );
+}
