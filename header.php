@@ -47,7 +47,7 @@
                     <a href="#">О компании</a>
                 </li>
                 <li>
-                    <a href="#">Контакты</a>
+                    <a href="/contacts.php">Контакты</a>
                 </li>
             </menu>
 

@@ -1,0 +1,18 @@
+.contacts {
+  &__section {
+    margin-bottom: 8px;
+  }
+  &__map {
+    height: 400px;
+    margin-top: 16px;
+    margin-left: -16px;
+    width: calc(100% + 32px);
+
+    @media (min-width: $bp-tablet) {
+      height: 500px;
+    }
+    @media (min-width: $bp-desktop) {
+      height: 600px;
+    }
+  }
+}
