@@ -27,10 +27,10 @@
         </header>
 
         <nav class="top-nav container" id="topNav">
-            <a href="#" class="top-nav__menu-toggle">
+            <a href="#" class="top-nav__menu-toggle" id="menuToggle">
                 <i class="icon icon-hamburger"></i>
             </a>
-            <menu class="top-nav__menu top-menu">
+            <menu class="top-nav__menu" id="topMenu">
                 <li class="">
                     <a href="#">Главная</a>
                 </li>

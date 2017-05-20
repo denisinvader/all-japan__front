@@ -1,4 +1,5 @@
 .top-nav {
+  position: relative;
   box-sizing: border-box;
   display: block;
   height: 48px;
@@ -29,6 +30,21 @@
   &__menu {
     display: none;
 
+    &.active {
+      display: block;
+      list-style: none;
+      position: absolute;
+      top: 48px;
+      left: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+
+      &>li:first-child {
+        margin-left: 0;
+      }
+    }
+
     @media (min-width: $bp-tablet) {
       @include inline-menu;
       display: initial;
@@ -48,19 +64,20 @@
         font-weight: bold;
         color: $white;
         background-color: $brand-color;
-        text-shadow: 1px 2px darken($brand-color, 16);
+        text-shadow: 1px 2px hsl-darken($brand-color, 16, 16);
         transition: background-color 0.15s;
 
         &:hover,
         &:focus {
           text-decoration: none;
-          background-color: lighten($brand-color, 8);
+          background-color: hsl-lighten($brand-color, 4, 12);
         }
       }
 
       &.active {
         &>a {
-          background-color: lighten($brand-color, 16);
+          text-shadow: 1px 2px hsl-darken($brand-color, 32, 32);
+          background-color: hsl-darken($brand-color, 16, 16);
         }
       }
     }

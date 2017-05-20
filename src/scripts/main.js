@@ -1,10 +1,16 @@
 (function () {
+  var $body = $('body');
   var $topNav = $('#topNav');
   var topNavBottom = $topNav.offset().top + 48;
   var lastScroll = 0;
+  var $topMenu = $('#topMenu');
+  var $menuToggle = $('#menuToggle');
 
   $(window).on('scroll', function (e) {
     var st = $(this).scrollTop();
+
+    if (Math.abs(st - lastScroll) < 25)
+      return true;
 
     if ($topNav.hasClass('scrolled')) {
       if ($('body').scrollTop() < topNavBottom - 48) {
@@ -26,5 +32,17 @@
     }
 
     lastScroll = st;
-  })
+  });
+
+  $menuToggle.on('click', function (e) {
+    e.preventDefault();
+
+    if (!$topMenu.hasClass('active')) {
+      $topMenu.addClass('active');
+      $body.css({ 'overflow-y': 'hidden' });
+    } else {
+      $topMenu.removeClass('active');
+      $body.css({ 'overflow-y': 'auto' });
+    }
+  });
 })();
