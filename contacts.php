@@ -1,6 +1,12 @@
 <?php require('./header.php'); ?>
 <main>
     <div class="container contacts">
+        <div class="breadcrumbs">
+            <a href="/">Главная</a>
+            >
+            <span>Контакты</span>
+        </div>
+
         <h1>Контакты</h1>
 
         <div class="contacts__section">
