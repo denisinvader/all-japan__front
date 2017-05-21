@@ -1,21 +1,23 @@
 <?php require('./header.php'); ?>
-<main class="container contacts">
-    <h1>Контакты</h1>
+<main>
+    <div class="container contacts">
+        <h1>Контакты</h1>
 
-    <div class="contacts__section">
-        Адрес: <b>г. Красноярск, ул. 60 Лет Октября 156</b>
-    </div>
-    <div class="contacts__section">
-        График работы: <b>ежедневно 07:00-18:00</b>
-    </div>
-    <div class="contacts__section">
-        Телефон:
-        <a href="#">
-            <b>+7 (998) 879 64-59</b>
-        </a>
+        <div class="contacts__section">
+            Адрес: <b>г. Красноярск, ул. 60 Лет Октября 156</b>
+        </div>
+        <div class="contacts__section">
+            График работы: <b>ежедневно 07:00-18:00</b>
+        </div>
+        <div class="contacts__section">
+            Телефон:
+            <a href="#">
+                <b>+7 (998) 879 64-59</b>
+            </a>
+        </div>
     </div>
 
-    <div class="contacts__map" id="contactsMap"></div>
+    <div class="container container_no-paddings contacts__map" id="contactsMap"></div>
 
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
     <script>

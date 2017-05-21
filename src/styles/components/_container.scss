@@ -10,4 +10,8 @@
   @media (min-width: $bp-large) {
     width: $bp-large - 16px;
   }
+
+  &_no-paddings {
+    padding: 0;
+  }
 }
