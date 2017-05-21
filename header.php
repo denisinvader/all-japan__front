@@ -44,7 +44,7 @@
                     <a href="/news.php">Новости</a>
                 </li>
                 <li>
-                    <a href="#">О компании</a>
+                    <a href="/about.php">О компании</a>
                 </li>
                 <li>
                     <a href="/contacts.php">Контакты</a>
