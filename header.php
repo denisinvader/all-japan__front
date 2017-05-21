@@ -31,8 +31,8 @@
                 <i class="icon icon-hamburger"></i>
             </a>
             <menu class="top-nav__menu" id="topMenu">
-                <li class="">
-                    <a href="#">Главная</a>
+                <li>
+                    <a href="/">Главная</a>
                 </li>
                 <li>
                     <a href="#">Запчасти</a>
