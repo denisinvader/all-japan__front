@@ -1,0 +1,39 @@
+.news-preview {
+  @include clearfix;
+  padding-bottom: 16px;
+  border-bottom: 2px solid $gray;
+
+  &_last-item {
+    border-bottom: none;
+  }
+
+  &__image {
+    @media (min-width: $bp-tablet) {
+      float: left;
+      width: 30%;
+      height: 100%;
+      padding-top: 8px;
+    }
+  }
+  &__content {
+    box-sizing: border-box;
+
+    @media (min-width: $bp-tablet) {
+      float: left;
+      width: 70%;
+      padding-left: 16px;
+    }
+  }
+  &__title {
+    margin: 16px 0;
+    line-height: 1.2;
+  }
+  &__text {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  &__date {
+    font-size: 14px;
+    color: lighten($text-color, 8);
+  }
+}
