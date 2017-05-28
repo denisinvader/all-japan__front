@@ -51,8 +51,22 @@
     }
 
     &>li {
+      background-color: $brand-color;
+      transition: background-color 0.15s;
+
+      &:hover,
+      &:focus {
+        background-color: hsl-lighten($brand-color, 4, 12);
+      }
+
       &:first-child {
         margin-left: -16px;
+      }
+      &.active {
+        &>a {
+          text-shadow: 1px 2px hsl-darken($brand-color, 32, 32);
+          background-color: hsl-darken($brand-color, 16, 16);
+        }
       }
 
       &>a {
@@ -63,21 +77,11 @@
         line-height: 48px;
         font-weight: bold;
         color: $white;
-        background-color: $brand-color;
         text-shadow: 1px 2px hsl-darken($brand-color, 16, 16);
-        transition: background-color 0.15s;
 
         &:hover,
         &:focus {
           text-decoration: none;
-          background-color: hsl-lighten($brand-color, 4, 12);
-        }
-      }
-
-      &.active {
-        &>a {
-          text-shadow: 1px 2px hsl-darken($brand-color, 32, 32);
-          background-color: hsl-darken($brand-color, 16, 16);
         }
       }
     }

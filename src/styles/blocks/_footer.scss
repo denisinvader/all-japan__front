@@ -16,6 +16,7 @@
     &:hover,
     &:focus {
       color: $brand-color;
+      text-decoration: none;
     }
   }
   &__menu {
