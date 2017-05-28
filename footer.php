@@ -29,7 +29,9 @@
                     <a href="#" class="footer__link">г. Красноярск, ул. 60 Лет Октября 156</a>
                 </div>
                 <div class="footer__subsection">
-                    <a href="#" class="footer__link">+7 (998) 879 64-59</a>
+                    <a href="tel:+79988796459" class="footer__link">
+                        +7 (998) 879 64-59
+                    </a>
                 </div>
                 <div class="footer__subsection">
                     <a href="#" class="footer__link">info@alljapan24.ru</a>
@@ -50,9 +52,12 @@
             </div>
         </footer>
 
+        <?php require './modals.php';?>
+
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"
                 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
                 crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
         <script type="text/javascript" src="/build/scripts.min.js"></script>
     </body>
 </html>
