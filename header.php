@@ -12,7 +12,6 @@
         <div style="display:none;">
             <h1>TODO</h1>
             <ul>
-                <li>В FireFox не отслеживается скролл (меню не плавает)</li>
             </ul>
         </div>
         <header class="header container">

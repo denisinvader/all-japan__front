@@ -14,7 +14,7 @@
       return true;
 
     if ($topNav.hasClass('scrolled')) {
-      if ($('body').scrollTop() < topNavBottom - 48) {
+      if (st < topNavBottom - 48) {
         $topNav.removeClass('scrolled');
         $topNav.removeClass('active');
         $('body').css({ 'margin-top': '' });
@@ -29,7 +29,7 @@
       else
         $topNav.removeClass('active');
     } else {
-      if ($('body').scrollTop() > topNavBottom) {
+      if (st > topNavBottom) {
         $topNav.addClass('scrolled');
         $('body').css({ 'margin-top': '48px' });
       }
