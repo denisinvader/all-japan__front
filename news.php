@@ -2,7 +2,7 @@
 <main class="container news-list">
     <div class="breadcrumbs">
         <a href="/">Главная</a>
-        >
+        /
         <span>Новости</span>
     </div>
 

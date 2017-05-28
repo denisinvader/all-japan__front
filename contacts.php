@@ -3,7 +3,7 @@
     <div class="container contacts">
         <div class="breadcrumbs">
             <a href="/">Главная</a>
-            >
+            /
             <span>Контакты</span>
         </div>
 

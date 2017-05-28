@@ -2,7 +2,7 @@
 <main class="container">
     <nav class="breadcrumbs">
         <a href="/">Главная</a>
-        >
+        /
         <samp>О компании</samp>
     </nav>
 
