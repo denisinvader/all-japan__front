@@ -31,6 +31,9 @@
                 <div class="footer__subsection">
                     <a href="#" class="footer__link">+7 (998) 879 64-59</a>
                 </div>
+                <div class="footer__subsection">
+                    <a href="#" class="footer__link">info@alljapan24.ru</a>
+                </div>
                 <div class="footer__subsection hidden-from-tablet">
                     <button type="button" class="btn">
                         Заказть звонок

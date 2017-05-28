@@ -21,13 +21,23 @@
                 <b>+7 (998) 879 64-59</b>
             </a>
         </div>
+        <div class="contacts__section">
+            E-mail:
+            <a href="#">
+                <b>info@alljapan24.ru</b>
+            </a>
+        </div>
     </div>
 
-    <div class="container container_no-paddings contacts__map" id="contactsMap"></div>
+    <div class="container container_no-paddings contacts__map"
+         id="contactsMap">
+        <div class="preloader"></div>
+    </div>
 
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
     <script>
         ymaps.ready(function () {
+            $('#contactsMap').html('');
             var map = new ymaps.Map("contactsMap", {
                 center: [55.985904, 92.916471],
                 zoom: 15
