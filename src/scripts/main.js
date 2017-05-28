@@ -21,6 +21,9 @@
         return true;
       }
 
+      if ($topNav.is(':hover'))
+        return true;
+
       if (st < lastScroll)
         $topNav.addClass('active');
       else
