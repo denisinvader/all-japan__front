@@ -12,5 +12,5 @@
     }
   }
 
-  $('a[href^="tel:"]').on('click', openCallbackOnDesktop);
+  // $('a[href^="tel:"]').on('click', openCallbackOnDesktop);
 })();

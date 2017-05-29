@@ -19,8 +19,8 @@
                     <button type="button"
                             class="btn"
                             data-fancybox
-                            data-src="#orderCallModal">
-                        Заказть звонок
+                            data-src="#callbackModal">
+                        Обратная связь
                     </button>
                 </div>
 
@@ -43,8 +43,8 @@
                     <button type="button"
                             class="btn"
                             data-fancybox
-                            data-src="#orderCallModal">
-                        Заказть звонок
+                            data-src="#callbackModal">
+                        Обратная связь
                     </button>
                 </div>
             </div>
