@@ -16,7 +16,10 @@
                 </menu>
 
                 <div class="footer__callback hidden-tablet">
-                    <button type="button" class="btn">
+                    <button type="button"
+                            class="btn"
+                            data-fancybox
+                            data-src="#orderCallModal">
                         Заказть звонок
                     </button>
                 </div>
@@ -37,7 +40,10 @@
                     <a href="#" class="footer__link">info@alljapan24.ru</a>
                 </div>
                 <div class="footer__subsection hidden-from-tablet">
-                    <button type="button" class="btn">
+                    <button type="button"
+                            class="btn"
+                            data-fancybox
+                            data-src="#orderCallModal">
                         Заказть звонок
                     </button>
                 </div>
