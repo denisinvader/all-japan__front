@@ -16,10 +16,20 @@ input[type="number"] {
     box-shadow: 0 0 2px $brand-color;
   }
 }
-
+select {
+  @extend input[type="text"];
+  padding-left: 4px;
+  padding-right: 4px;
+}
 textarea {
   @extend input[type="text"];
   resize: none;
+}
+
+.form-group {
+  &__title {
+    margin: 16px 0 8px;
+  }
 }
 
 .form-field {
@@ -27,10 +37,12 @@ textarea {
 
   &>label {
     display: block;
+    padding-bottom: 4px;
   }
   &>input:not([type="checkbox"]),
   &>input:not([type="radio"]),
-  &>textarea {
+  &>textarea,
+  &>select {
     width: 100%;
   }
 }

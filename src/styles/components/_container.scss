@@ -1,3 +1,5 @@
+$grid-gutter: 8px;
+
 .container {
   box-sizing: border-box;
   margin: 0 auto;
@@ -13,5 +15,43 @@
 
   &_no-paddings {
     padding: 0;
+  }
+}
+
+.row {
+  @include clearfix;
+  margin: {
+    left: -$grid-gutter;
+    right: -$grid-gutter;
+  };
+
+  &>[class*="col-"] {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    padding: {
+      left: $grid-gutter;
+      right: $grid-gutter;
+    };
+  }
+  &>.col-t-25 {
+    @media (min-width: $bp-tablet) {
+      width: 25%;
+    }
+  }
+  &>.col-t-33 {
+    @media (min-width: $bp-tablet) {
+      width: 33.33%;
+    }
+  }
+  &>.col-t-50 {
+    @media (min-width: $bp-tablet) {
+      width: 50%;
+    }
+  }
+  &>.col-d-25 {
+    @media (min-width: $bp-desktop) {
+      width: 25%;
+    }
   }
 }
