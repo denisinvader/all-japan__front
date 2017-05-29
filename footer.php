@@ -29,7 +29,7 @@
 
             <div class="footer__section clearfix">
                 <div class="footer__subsection">
-                    <a href="#" class="footer__link">г. Красноярск, ул. 60 Лет Октября 156</a>
+                    <a href="/contacts.php" class="footer__link">г. Красноярск, ул. 60 Лет Октября 156</a>
                 </div>
                 <div class="footer__subsection">
                     <a href="tel:+79988796459" class="footer__link">
