@@ -6,6 +6,7 @@ module.exports = function (grunt) {
       dist: {
         src: [
           'src/scripts/global-vars.js',
+          'src/scripts/input-masks.js',
           'src/scripts/top-nav.js',
           'src/scripts/modals.js'
         ],
