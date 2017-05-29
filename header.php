@@ -49,7 +49,7 @@
             </menu>
 
             <div class="top-contacts">
-                <a href="#" class="top-contacts__phone">
+                <a href="tel:+79999454487" class="top-contacts__phone">
                     +7 (999) 945 44-87
                 </a>
                 <a href="#" class="top-contacts__icon">
