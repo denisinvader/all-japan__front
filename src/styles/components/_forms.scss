@@ -1,0 +1,36 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  box-sizing: border-box;
+  background-color: $white;
+  padding: 8px;
+  border: 1px solid $text-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  transition: border .2s, box-shadow .2s;
+
+  &:focus {
+    outline: 0;
+    border: 1px solid $brand-color;
+    box-shadow: 0 0 2px $brand-color;
+  }
+}
+
+textarea {
+  @extend input[type="text"];
+  resize: none;
+}
+
+.form-field {
+  padding-bottom: 16px;
+
+  &>label {
+    display: block;
+  }
+  &>input:not([type="checkbox"]),
+  &>input:not([type="radio"]),
+  &>textarea {
+    width: 100%;
+  }
+}
