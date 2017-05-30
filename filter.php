@@ -27,6 +27,21 @@
                     </select>
                 </div>
             </div>
+            <div class="form-field row">
+                <label class="col-100">Только</label>
+                <div class="col-50">
+                    <label class="checkbox-btn block">
+                        <input type="checkbox"/>
+                        <div>с ценой</div>
+                    </label>
+                </div>
+                <div class="col-50">
+                    <label class="checkbox-btn block">
+                        <input type="checkbox"/>
+                        <div>с фото</div>
+                    </label>
+                </div>
+            </div>
         </div>
         <div class="form-group col-t-33">
             <div class="row">
@@ -48,7 +63,7 @@
                         <option>2106</option>
                         <option>2107</option>
                         <option>2109</option>
-                        <option>CHAISER TURBO 1999</option>
+                        <option>DUTRO \ 300</option>
                     </select>
                 </div>
                 <div class="form-field col-50">
