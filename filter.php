@@ -1,48 +1,17 @@
 <section class="container catalog-filter">
     <h2>Поиск автозапчастей</h2>
     <form action="catalog.php">
-        <div class="form-group row">
-            <div class="form-field col-100">
+        <div class="form-group">
+            <div class="form-field">
                 <label for="">Название / Артикул</label>
                 <input type="text"
                        name=""
                        value=""
                        placeholder="Насос ГУРа" />
             </div>
-            <div class="form-field col-t-25">
-                <label for="">Цена от</label>
-                <input type="number"
-                       min="0"
-                       step="1"
-                       placeholder="2000">
-            </div>
-            <div class="form-field col-t-25">
-                <label for="">Цена до</label>
-                <input type="number"
-                       min="0"
-                       step="1"
-                       placeholder="8000">
-            </div>
-            <div class="form-field col-t-25">
-                <label for="">Состояние</label>
-                <select class="" name="">
-                    <option value="">все</option>
-                    <option value="">контр. (б/у)</option>
-                    <option value="">новое</option>
-                </select>
-            </div>
-            <div class="form-field col-t-25">
-                <label for="">Наличие</label>
-                <select class="" name="">
-                    <option value="">все</option>
-                    <option value="">в наличии</option>
-                    <option value="">под заказ</option>
-                </select>
-            </div>
         </div>
         <div class="form-group row">
-            <h3 class="form-group__title col-100">Автомобиль</h3>
-            <div class="form-field col-d-25 col-t-50">
+            <div class="form-field col-t-25 col-50">
                 <label>Марка</label>
                 <select class="" name="">
                     <option>все</option>
@@ -52,7 +21,7 @@
                     <option>ГАЗ</option>
                 </select>
             </div>
-            <div class="form-field col-d-25 col-t-50">
+            <div class="form-field col-t-25 col-50">
                 <label>Модель</label>
                 <select class="" name="">
                     <option>все</option>
@@ -62,17 +31,17 @@
                     <option>2109</option>
                 </select>
             </div>
-            <div class="form-field col-d-25 col-t-50">
+            <div class="form-field col-t-25 col-50">
                 <label>Двигатель</label>
-                <select class="" name="">
+                <select class="" name="" disabled>
                     <option>все</option>
                     <option>6HE1-T</option>
                     <option>6D16</option>
                 </select>
             </div>
-            <div class="form-field col-d-25 col-t-50">
+            <div class="form-field col-t-25 col-50">
                 <label>Кузов</label>
-                <select class="" name="">
+                <select class="" name="" disabled>
                     <option>все</option>
                     <option>BE63CE</option>
                     <option>BE437</option>
@@ -80,8 +49,7 @@
             </div>
         </div>
         <div class="form-group row">
-            <h3 class="form-group__title col-100">Положение</h3>
-            <div class="form-field col-t-33">
+            <div class="form-field col-33">
                 <label>Верх/низ</label>
                 <select class="" name="">
                     <option>все</option>
@@ -89,15 +57,15 @@
                     <option>верх</option>
                 </select>
             </div>
-            <div class="form-field col-t-33">
-                <label>Лево/право</label>
+            <div class="form-field col-33">
+                <label>Лев/прав</label>
                 <select class="" name="">
                     <option>все</option>
                     <option>лево</option>
                     <option>право</option>
                 </select>
             </div>
-            <div class="form-field col-t-33">
+            <div class="form-field col-33">
                 <label>Перед/зад</label>
                 <select class="" name="">
                     <option>все</option>
@@ -106,7 +74,37 @@
                 </select>
             </div>
         </div>
-        <div class="form-group">
+        <div class="form-group form-group_last row">
+            <div class="form-field col-50 col-t-25">
+                <label for="">Цена от</label>
+                <input type="number"
+                       min="0"
+                       placeholder="2000">
+            </div>
+            <div class="form-field col-50 col-t-25">
+                <label for="">Цена до</label>
+                <input type="number"
+                       min="0"
+                       placeholder="8000">
+            </div>
+            <div class="form-field col-50 col-t-25">
+                <label for="">Состояние</label>
+                <select class="" name="">
+                    <option value="">все</option>
+                    <option value="">контр. (б/у)</option>
+                    <option value="">новое</option>
+                </select>
+            </div>
+            <div class="form-field col-50 col-t-25">
+                <label for="">Наличие</label>
+                <select class="" name="">
+                    <option value="">все</option>
+                    <option value="">в наличии</option>
+                    <option value="">под заказ</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group form-group_last">
             <button type="submit" class="btn">Найти</button>
         </div>
     </form>

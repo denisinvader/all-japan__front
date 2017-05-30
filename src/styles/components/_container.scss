@@ -34,6 +34,12 @@ $grid-gutter: 8px;
       right: $grid-gutter;
     };
   }
+  &>.col-33 {
+    width: 33.33%;
+  }
+  &>.col-50 {
+    width: 50%;
+  }
   &>.col-t-25 {
     @media (min-width: $bp-tablet) {
       width: 25%;

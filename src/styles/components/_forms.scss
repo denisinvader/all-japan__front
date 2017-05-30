@@ -4,16 +4,20 @@ input[type="password"],
 input[type="number"] {
   box-sizing: border-box;
   background-color: $white;
-  padding: 8px;
+  padding: 4px 8px;
   border: 1px solid $text-color;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  color: $text-color;
   transition: border .2s, box-shadow .2s;
 
   &:focus {
     outline: 0;
     border: 1px solid $brand-color;
     box-shadow: 0 0 2px $brand-color;
+  }
+  &:disabled {
+    background-color: $light-gray;
   }
 }
 select {
@@ -27,6 +31,13 @@ textarea {
 }
 
 .form-group {
+  margin-bottom: 8px;
+  border-bottom: 1px solid $gray;
+
+  &_last {
+    border-bottom: 0;
+  }
+
   &__title {
     margin: 16px 0 8px;
   }
