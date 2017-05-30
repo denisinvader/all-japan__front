@@ -30,3 +30,13 @@
     }
   }
 }
+
+a.btn {
+  display: inline-block;
+
+  &:hover,
+  &:focus {
+    color: $white;
+    text-decoration: none;
+  }
+}
