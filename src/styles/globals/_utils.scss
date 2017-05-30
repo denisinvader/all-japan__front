@@ -2,6 +2,10 @@
   @include clearfix;
 }
 
+.block {
+  display: block !important;
+}
+
 .hidden {
   display: none;
 
