@@ -79,9 +79,13 @@ textarea {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+    padding: 0 4px;
 
-    &:not(:last-child) {
-      padding-right: 8px;
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
     }
 
     &>input[type="radio"] {
@@ -110,6 +114,36 @@ textarea {
       &:focus {
         background-color: hsl-lighten($brand-color, 2, 4);
       }
+    }
+  }
+}
+
+.checkbox-btn {
+  display: inline-block;
+
+  &>input[type="checkbox"] {
+    display: none;
+  }
+  &>div {
+    @extend input[type="text"];
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover,
+    &:focus {
+      background-color: darken($white, 4);
+    }
+  }
+  &>input[type="checkbox"]:checked + div {
+    background-color: $brand-color;
+    color: $white;
+
+    &:hover,
+    &:focus {
+      background-color: hsl-lighten($brand-color, 2, 4);
     }
   }
 }
