@@ -1,5 +1,5 @@
 <?php require_once './header.php';?>
-<section class="container">
+<section class="container mainpage-section">
     <h1>Автотехцентр Вся Япония</h1>
     <div class="">
         <p>Задача организации, в особенности же дальнейшее развитие различных форм деятельности требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом новая модель организационной деятельности позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности позволяет оценить значение форм развития. С другой стороны новая модель организационной деятельности в значительной степени обуславливает создание направлений прогрессивного развития. Таким образом новая модель организационной деятельности играет важную роль в формировании модели развития. Идейные соображения высшего порядка, а также сложившаяся структура организации играет важную роль в формировании новых предложений.</p>
@@ -10,8 +10,10 @@
         </p>
     </div>
 </section>
-<?php require './filter.php';?>
-<section class="container news-list">
+<section class="mainpage-section">
+    <?php require './filter.php';?>
+</section>
+<section class="container mainpage-section">
     <h2>Последние новости</h2>
     <div class="news-preview news-list__item">
         <h2 class="news-preview__title">
@@ -45,7 +47,7 @@
             </div>
         </div>
     </div>
-    <div class="news-preview news-list__item">
+    <div class="news-preview news-list__item news-preview_last-item">
         <h2 class="news-preview__title">
             <a href="#">Услуги технического обслуживания</a>
         </h2>
@@ -61,42 +63,8 @@
             </div>
         </div>
     </div>
-    <div class="news-preview news-list__item">
-        <h2 class="news-preview__title">
-            <a href="#">Как выбрать масло для автомобиля</a>
-        </h2>
-        <a href="#" class="news-preview__image">
-            <img src="http://img.autodni.ru/binaries/v3_bigimage/283894.jpg"/>
-        </a>
-        <div class="news-preview__content">
-            <p class="news-preview__text">
-                Идейные соображения высшего порядка, а также реализация намеченных плановых заданий требуют определения и уточнения существенных финансовых и административных условий. Повседневная практика показывает, что дальнейшее развитие различных форм деятельности играет важную роль в формировании дальнейших направлений развития.
-            </p>
-            <div class="news-preview__date">
-                28.05.2017
-            </div>
-        </div>
-    </div>
-    <div class="news-preview news-list__item">
-        <h2 class="news-preview__title">
-            <a href="#">Большой ассортимент японских грузовиков</a>
-        </h2>
-        <a href="#" class="news-preview__image">
-            <img src="http://static.ngs.ru/news/preview/97b639b7bb7eb6583a439edd5d64ac3208e827fb_1000.jpg"/>
-        </a>
-        <div class="news-preview__content">
-            <p class="news-preview__text">
-                Задача организации, в особенности же дальнейшее развитие различных форм деятельности требуют от нас анализа новых предложений. Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа модели развития. Не следует, однако забывать, что новая модель организационной деятельности в значительной степени обуславливает создание системы обучения кадров.
-            </p>
-            <div class="news-preview__date">
-                15.03.2017
-            </div>
-        </div>
-    </div>
 
-    <div style="padding: 8px 0">
-        <a href="/news.php" class="btn">Все новости</a>
-        или просто ссылкой
+    <div class="p-t-16">
         <a href="/news.php">Все новости</a>
     </div>
 </section>
