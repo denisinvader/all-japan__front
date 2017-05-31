@@ -32,10 +32,10 @@
                     <a href="/">Главная</a>
                 </li>
                 <li>
-                    <a href="#">Запчасти</a>
+                    <a href="/catalog.php">Запчасти</a>
                 </li>
                 <li class="active">
-                    <a href="#">Техника</a>
+                    <a href="/catalog.php">Техника</a>
                 </li>
                 <li>
                     <a href="/news.php">Новости</a>

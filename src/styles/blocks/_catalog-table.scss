@@ -1,18 +1,77 @@
 .catalog-table {
   width: 100%;
-  &>tbody>tr,
-  &>thead>tr {
-    &>td {
-      padding: 4px;
+  margin-bottom: 8px;
 
-      &:nth-of-type(1),
-      &:nth-of-type(3),
-      &:nth-of-type(4) {
+  &-container {
+    margin: 0 -8px;
+  }
+
+  &>thead>tr,
+  &>tbody>tr {
+    &>td {
+      padding: 12px 8px;
+      border-bottom: 2px solid $gray;
+      vertical-align: top;
+
+      // photo
+      &:nth-of-type(1) {
+        display: none;
+
+        @media (min-width: $bp-tablet) {
+          width: 64px;
+          display: table-cell;
+        }
+      }
+      // name
+      &:nth-of-type(2) {
+        width: 70%;
+
+        @media (min-width: $bp-tablet) {
+          width: auto;
+        }
+      }
+      // props
+      &:nth-of-type(3) {
         display: none;
 
         @media (min-width: $bp-desktop) {
           display: table-cell;
         }
+
+        &>.prop-line {
+          width: 200px;
+          overflow-x: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      // price
+      &:nth-of-type(4) {
+        text-align: right;
+      }
+    }
+  }
+  &>thead>tr {
+    &>td {
+      font-weight: bold;
+      border-bottom-width: 4px;
+    }
+  }
+  &>tbody>tr {
+    background-color: $white;
+    transition: background-color .2s;
+
+    &:last-child {
+      &>td {
+        border-bottom-width: 0;
+      }
+    }
+    &:hover {
+      background-color: lighten($gray, 16);
+    }
+    &>td {
+      &:nth-of-type(4) {
+        font-weight: bold;
       }
     }
   }
