@@ -6,23 +6,11 @@
   background-color: $light-gray;
 
   &__hide-btn {
-    float: right;
-    display: none;
+    top: 16px;
+    right: 8px;
 
-    @media (min-width: $bp-tablet) {
-      display: initial;
-    }
-
-    &_mobile {
-      top: 16px;
-      right: 8px;
-
-      &:after {
-        box-shadow: 0 0 4px $gray;
-      }
-
-      @media (min-width: $bp-tablet) {
-      }
+    &:after {
+      box-shadow: 0 0 4px $gray;
     }
   }
 }

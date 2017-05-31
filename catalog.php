@@ -2,8 +2,18 @@
 <div class="container">
     <h1>Каталог товаров</h1>
 </div>
+<div class="container catalog-categories-container hidden" id="catalogCategories">
+    <button class="js-toggle-categories fancybox-close-small catalog-categories__close-btn" title="Скрыть"></button>
+    <h2>Категории</h2>
+    <?php require './catalog-categories.php';?>
+</div>
+<div class="container p-b-16">
+    <a href="#" class="js-toggle-categories" data-open>
+        <b>Показать категории</b>
+    </a>
+</div>
 <div class="container catalog-filter opened" id="catalogFilter">
-    <button class="js-toggle-filter fancybox-close-small catalog-filter__hide-btn_mobile" title="Скрыть"></button>
+    <button class="js-toggle-filter fancybox-close-small catalog-filter__hide-btn" title="Скрыть"></button>
     <h2>Поиск автозапчастей</h2>
     <form action="catalog.php" class="row">
         <div class="form-group col-t-33">
@@ -162,7 +172,11 @@
     </form>
 </div>
 <div class="container">
-    <a href="#" class="js-toggle-filter hidden" data-open>Показать фильтр</a>
+    <a href="#" class="js-toggle-filter hidden" data-open>
+        <b>
+            Показать фильтр
+        </b>
+    </a>
 </div>
 <div class="container">
     <div class="catalog-table-container">
