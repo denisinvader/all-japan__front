@@ -8,6 +8,7 @@ module.exports = function (grunt) {
           'src/scripts/global-vars.js',
           'src/scripts/input-masks.js',
           'src/scripts/top-nav.js',
+          'src/scripts/catalog.js',
           'src/scripts/modals.js'
         ],
         dest: 'build/scripts.js'
