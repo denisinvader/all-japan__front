@@ -9,7 +9,10 @@ input[type="number"] {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: $text-color;
-  transition: border .2s, box-shadow .2s;
+
+  @media (min-width: $bp-desktop) {
+    transition: border .2s, box-shadow .2s;
+  }
 
   &:focus {
     outline: 0;
@@ -99,7 +102,9 @@ textarea {
     &>div {
       cursor: pointer;
       background-color: $white;
-      transition: all .2s;
+      @media (min-width: $bp-desktop) {
+        transition: all .2s;
+      }
 
       &:hover,
       &:focus {
@@ -130,7 +135,9 @@ textarea {
     height: 100%;
     background-color: $white;
     cursor: pointer;
-    transition: all .2s;
+    @media (min-width: $bp-desktop) {
+      transition: all .2s;
+    }
 
     &:hover,
     &:focus {
