@@ -10,9 +10,9 @@
 
     <div class="news-preview news-list__item">
         <h2 class="news-preview__title">
-            <a href="#">Новое поступление контрактных двигателей</a>
+            <a href="/news-detail.php">Новое поступление контрактных двигателей</a>
         </h2>
-        <a href="#" class="news-preview__image">
+        <a href="/news-detail.php" class="news-preview__image">
             <img src="http://awtozapchasti.com/wp-content/uploads/2015/07/kntraktnye_dvigateli1.jpg"/>
         </a>
         <div class="news-preview__content">
@@ -26,9 +26,9 @@
     </div>
     <div class="news-preview news-list__item">
         <h2 class="news-preview__title">
-            <a href="#">Весь апрель развал-схождение в подарок</a>
+            <a href="/news-detail.php">Весь апрель развал-схождение в подарок</a>
         </h2>
-        <a href="#" class="news-preview__image">
+        <a href="/news-detail.php" class="news-preview__image">
             <img src="http://www.bochka-service.ru/admin/material_tmp/1436298236_0.jpg"/>
         </a>
         <div class="news-preview__content">
@@ -42,9 +42,9 @@
     </div>
     <div class="news-preview news-list__item">
         <h2 class="news-preview__title">
-            <a href="#">Услуги технического обслуживания</a>
+            <a href="/news-detail.php">Услуги технического обслуживания</a>
         </h2>
-        <a href="#" class="news-preview__image">
+        <a href="/news-detail.php" class="news-preview__image">
             <img src="http://rusauto53.ru/tinybrowser/images/_full/_to-auto.jpg"/>
         </a>
         <div class="news-preview__content">
@@ -58,9 +58,9 @@
     </div>
     <div class="news-preview news-list__item">
         <h2 class="news-preview__title">
-            <a href="#">Как выбрать масло для автомобиля</a>
+            <a href="/news-detail.php">Как выбрать масло для автомобиля</a>
         </h2>
-        <a href="#" class="news-preview__image">
+        <a href="/news-detail.php" class="news-preview__image">
             <img src="http://img.autodni.ru/binaries/v3_bigimage/283894.jpg"/>
         </a>
         <div class="news-preview__content">
@@ -74,9 +74,9 @@
     </div>
     <div class="news-preview news-list__item">
         <h2 class="news-preview__title">
-            <a href="#">Большой ассортимент японских грузовиков</a>
+            <a href="/news-detail.php">Большой ассортимент японских грузовиков</a>
         </h2>
-        <a href="#" class="news-preview__image">
+        <a href="/news-detail.php" class="news-preview__image">
             <img src="http://static.ngs.ru/news/preview/97b639b7bb7eb6583a439edd5d64ac3208e827fb_1000.jpg"/>
         </a>
         <div class="news-preview__content">
@@ -90,9 +90,9 @@
     </div>
     <div class="news-preview news-list__item">
         <h2 class="news-preview__title">
-            <a href="#">Новое поступление спецтехники</a>
+            <a href="/news-detail.php">Новое поступление спецтехники</a>
         </h2>
-        <a href="#" class="news-preview__image">
+        <a href="/news-detail.php" class="news-preview__image">
             <img src="http://domkrat.org/wp-content/uploads/2015/12/Spetstehnika-----vyigodnaya-arenda.jpg"/>
         </a>
         <div class="news-preview__content">
@@ -106,9 +106,9 @@
     </div>
     <div class="news-preview news-list__item">
         <h2 class="news-preview__title">
-            <a href="#">Как выбрать тормозные колодки</a>
+            <a href="/news-detail.php">Как выбрать тормозные колодки</a>
         </h2>
-        <a href="#" class="news-preview__image">
+        <a href="/news-detail.php" class="news-preview__image">
             <img src="https://www.autoshcool.ru/uploads/posts/2010-12/1291647397_skripyat_perednie_tormoznye_kolodki.jpg"/>
         </a>
         <div class="news-preview__content">
@@ -122,9 +122,9 @@
     </div>
     <div class="news-preview news-list__item">
         <h2 class="news-preview__title">
-            <a href="#">Что делать если течет радиатор</a>
+            <a href="/news-detail.php">Что делать если течет радиатор</a>
         </h2>
-        <a href="#" class="news-preview__image">
+        <a href="/news-detail.php" class="news-preview__image">
             <img src="http://365cars.ru/wp-content/uploads/2015/11/techet-radiator-avtomobilya.jpg"/>
         </a>
         <div class="news-preview__content">
@@ -138,9 +138,9 @@
     </div>
     <div class="news-preview news-list__item">
         <h2 class="news-preview__title">
-            <a href="#">Новое поступление автозапчасте</a>
+            <a href="/news-detail.php">Новое поступление автозапчасте</a>
         </h2>
-        <a href="#" class="news-preview__image">
+        <a href="/news-detail.php" class="news-preview__image">
             <img src="http://идея-малого-бизнеса.рф/wp-content/uploads/2015/08/91fb52bc0f8a85af8b260c3d68a980ad.jpg"/>
         </a>
         <div class="news-preview__content">
@@ -154,9 +154,9 @@
     </div>
     <div class="news-preview news-preview_last-item">
         <h2 class="news-preview__title">
-            <a href="#">Диагностика подвески</a>
+            <a href="/news-detail.php">Диагностика подвески</a>
         </h2>
-        <a href="#" class="news-preview__image">
+        <a href="/news-detail.php" class="news-preview__image">
             <img src="http://zerga.ru/imj5/podvecka%20VAZ%201.jpg"/>
         </a>
         <div class="news-preview__content">

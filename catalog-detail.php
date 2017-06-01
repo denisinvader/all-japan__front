@@ -1,5 +1,14 @@
 <?php require './header.php';?>
 <div class="container">
+    <div class="breadcrumbs">
+        <a href="/">Главная</a>
+        /
+        <a href="/catalog.php">Каталог</a>
+        /
+        <a href="/catalog.php">Ходовка</a>
+        /
+        <span>Распредвал MMC 6D16 б/у</span>
+    </div>
     <div class="row product-detail">
         <div class="col-t-50">
             <div class="product-detail__image" id="catalogImage">
