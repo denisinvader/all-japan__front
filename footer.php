@@ -2,16 +2,16 @@
             <div class="footer__subsection">
                 <menu class="footer__menu">
                     <li>
-                        <a href="#">Главная</a>
+                        <a href="/">Главная</a>
                     </li>
                     <li>
-                        <a href="#">Каталог</a>
+                        <a href="/catalog.php">Каталог</a>
                     </li>
                     <li>
-                        <a href="#">Статьи</a>
+                        <a href="/news.php">Новости</a>
                     </li>
                     <li>
-                        <a href="#">Контакты</a>
+                        <a href="/contacts.php">Контакты</a>
                     </li>
                 </menu>
 
@@ -32,12 +32,27 @@
                     <a href="/contacts.php" class="footer__link">г. Красноярск, ул. 60 Лет Октября 156</a>
                 </div>
                 <div class="footer__subsection">
-                    <a href="tel:+79988796459" class="footer__link">
-                        +7 (998) 879 64-59
-                    </a>
+                    <div>
+                        <a href="tel:+73912016201" class="footer__link">
+                            +7 (391) 201-6-201
+                        </a>
+                        <small>- магазин</small>
+                    </div>
+                    <div>
+                        <a href="tel:+73912016001" class="footer__link">
+                            +7 (391) 201-6-001
+                        </a>
+                        <small>- магазин</small>
+                    </div>
+                    <div>
+                        <a href="tel:+73912414999" class="footer__link">
+                            +7 (391) 241-4-999
+                        </a>
+                        <small>- разборка</small>
+                    </div>
                 </div>
                 <div class="footer__subsection">
-                    <a href="#" class="footer__link">info@alljapan24.ru</a>
+                    <a href="mailto:info@alljapan24.ru" class="footer__link">info@alljapan24.ru</a>
                 </div>
                 <div class="footer__subsection hidden-from-tablet">
                     <button type="button"

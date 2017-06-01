@@ -48,11 +48,11 @@
 
             <div class="product-detail__section">
                 <h4 class="product-detail__section-title">Контакты для связи</h4>
-                <div class="">
-                    <a href="#">+7 (999) 985 56-45</a>
+                <div>
+                    <a href="tel:+73912414999">+7 (391) 241-4-999</a>
                 </div>
-                <div class="">
-                    <a href="#">+7 (391) 285 01-79</a>
+                <div>
+                    <a href="mailto:info@alljapan24.ru">info@alljapan24.ru</a>
                 </div>
             </div>
 

@@ -44,8 +44,8 @@
             </menu>
 
             <div class="top-contacts">
-                <a href="tel:+79999454487" class="top-contacts__phone">
-                    +7 (999) 945 44-87
+                <a href="tel:+73912414999" class="top-contacts__phone">
+                    +7 (39) 241-4-999
                 </a>
                 <a href="#" class="top-contacts__icon">
                     <i class="icon icon-phone"></i>
