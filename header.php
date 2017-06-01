@@ -9,15 +9,10 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div style="display:none;">
-            <h1>TODO</h1>
-            <ul>
-            </ul>
-        </div>
         <header class="header container">
             <h1 class="header__logo">
                 <a href="/">
-                    <img src="/images/logo.jpg"
+                    <img src="/images/logo.png"
                          alt="Автотехцентр Вся Япония" />
                 </a>
             </h1>
