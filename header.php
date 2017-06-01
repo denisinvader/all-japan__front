@@ -45,7 +45,7 @@
 
             <div class="top-contacts">
                 <a href="tel:+73912414999" class="top-contacts__phone">
-                    +7 (39) 241-4-999
+                    +7 (391) 241-4-999
                 </a>
                 <a href="#" class="top-contacts__icon">
                     <i class="icon icon-phone"></i>
